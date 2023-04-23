@@ -6,7 +6,7 @@ project(demo)
 # set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE "Debug")
  
-#! 设定源码列表.cpp
+
 set(SOURCE_FILES ./nn_multi_pke.cpp)
 aux_source_directory(${CMAKE_SOURCE_DIR}/libtfhe DIR)  
 
